@@ -349,7 +349,7 @@ lsTraining() {
 	local input
 	local correct="ls ."
 
-	echo "The $(term_echo 'ls') command is used for showing which files the current directory cotnains."
+	echo "The $(term_echo 'ls') command is used for showing which files the current directory contains."
 	echo "Let's try it'"
 	type_echo "Type: ls ."
 	read -p "  -> " input
